@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="avatar_name">Evrard</string>
+    <string name="description">Lorem ipsum decription du texte de ma view card, fdsfsdfsfo fsdfdsf ferhtrhtf, vdfgfdgdf</string>
+    <string name="main_text">main card</string>
+    <string name="description_large" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi at est sem. Nulla lobortis enim urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Donec ipsum mauris, volutpat eget tristique ut, bibendum sit amet enim.
+        Sed suscipit, leo a cursus suscipit, turpis leo pellentesque nibh, eu convallis augue ex vel magna. </string>
+    <string-array name="myPlant">
+        <item>Azale</item>
+        <item>Cedre</item>
+        <item>Erable</item>
+    </string-array>
+</resources>

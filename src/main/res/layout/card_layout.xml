@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+        android:layout_height="@dimen/size_148"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="@color/colorLightGrey"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_100"
+                android:layout_height="@dimen/size_100"
+                android:text="@string/avatar_name"
+                android:id="@+id/ui_image_view"
+                android:background="@drawable/ev"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="@dimen/space_16"
+        />
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="@dimen/space_16"
+                    app:layout_constraintLeft_toRightOf="@+id/ui_image_view"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="@color/colorDarkGrey"
+                    android:id="@+id/ui_title_card"
+            />
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/size_40"
+                    android:layout_marginLeft="@dimen/space_16"
+                    android:layout_marginRight="@dimen/space_16"
+                    android:id="@+id/ui_resume"
+                    android:text="@string/description"
+                    android:background="@color/colorLightYellow"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ui_image_view"
+                    app:layout_constraintTop_toTopOf="@id/ui_title_card"
+            />
+            <ImageButton
+                    style="@style/ConstraintIcon"
+                    android:layout_marginRight="@dimen/size_16"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/ui_resume"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:background="@drawable/iconfinder_heart_red"
+                    android:id="@+id/ui_image_button1"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintEnd_toEndOf="parent"
+            />
+            <ImageButton
+                    style="@style/ConstraintIcon"
+                    app:layout_constraintTop_toTopOf="@id/ui_resume"
+                    android:layout_marginRight="@dimen/size_8"
+                    app:layout_constraintEnd_toStartOf="@id/ui_image_button1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/icon_unlike"
+                    android:id="@+id/ui_image_button2"
+            />
+            <ImageButton
+                    style="@style/ConstraintIcon"
+                    android:layout_marginRight="@dimen/size_8"
+                    app:layout_constraintTop_toTopOf="@id/ui_resume"
+                    app:layout_constraintEnd_toStartOf="@id/ui_image_button2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/icon_like"
+
+            />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

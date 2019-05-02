@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="avatar_name">Evrard</string>
+    <string name="description">C\'est la description du texte de la carte</string>
+    <string name="main_text">vue de la carte</string>
+</resources>
